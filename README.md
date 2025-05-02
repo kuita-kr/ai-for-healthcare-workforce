@@ -7,12 +7,20 @@ We produced an NHS Career Coach chat bot, using Azure AI Foundry. The code in th
 
 This connects to an API Endpoint for the LLM that was set up in Azure AI Foundry.
 
+### Demo
+
+To see the app in action, please take a look at the [demo video](videos/nhs-career-coach.mp4).
+
 
 ### Contact
-Warren Davis, Data Scientist - Data Science team, Advanced Analytics (D&A)
+
+> **This material is maintained by the [NHS England Data Science team](mailto:datascience@nhs.net)**.
+
+For more information please contact us at the above email address FAO:
+
+Warren Davies, Data Scientist - Data Science team, Advanced Analytics (D&A)
 
 Chaeyoon Kim, Data Scientist - Workforce, Training and Education analytics, Advanced Analytics (D&A)
-
 
 ### License
 
