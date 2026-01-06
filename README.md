@@ -1,7 +1,9 @@
 # NHS Career Coach
-*Hack for Health Nov 2024 - Team 4*
+
+*Hack for Health Nov 2024 - Team 4* 
 
 This is the front-end code base for Team 4 in the Hack for Health event with Microsoft and Kainos. The back-end is having limitations on the original subscription which is no longer available to serve with.
+
 
 We produced an NHS Career Coach chat bot, using Azure AI Foundry. The code in this repo is a simple Streamlit app based on this code: [build a basic LLM chat app](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps).
 
