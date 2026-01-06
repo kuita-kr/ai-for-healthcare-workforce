@@ -22,6 +22,8 @@ Warren Davies, Data Scientist - Data Science team, Advanced Analytics (D&A)
 
 Chaeyoon Kim, Data Scientist - Workforce, Training and Education analytics, Advanced Analytics (D&A)
 
+Mary Amanuel, Data Scientist - Advanced Analytics, (D&A)
+
 ### License
 
 Unless stated otherwise, the codebase is released under [the MIT Licence][mit].
