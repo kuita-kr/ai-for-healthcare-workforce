@@ -49,7 +49,7 @@ Warren Davies, Data Scientist - Data Science team, Advanced Analytics (D&A)
 
 Chaeyoon Kim, Data Scientist - Workforce, Training and Education analytics, Advanced Analytics (D&A)
 
-Mary Amanuel, Data Scientist - Advanced Analytics (D&A)
+Mary Amanuel, Data Scientist - Strategic Analysis, Advanced Analytics (D&A)
 
 ### License
 
