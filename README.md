@@ -34,6 +34,8 @@ We produced an NHS Career Coach chat bot, using Azure AI Foundry. The code in th
 
 This connects to an API Endpoint for the LLM that was set up in Azure AI Foundry.
 
+This repository also includes our prompting and meta-prompting strategy, validation process, and user personas.
+
 ### Demo
 
 To see the app in action, please take a look at the [demo video](videos/nhs-career-coach.mp4).
