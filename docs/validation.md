@@ -2,13 +2,14 @@
 
 ## Objective
 
-Validate that AI-generated outputs match the reading comprehension level of target user personas (Sandra, 13; Kim, 26).
+Validate that AI-generated outputs match the reading comprehension level of target user personas (Sandra, 13; Kim, 26). 
 
 **Note:** Kim's output was generated in Korean; validation was performed on the English translation.
 
 ## Methodology
 
-Two standard readability metrics were applied to assess output appropriateness:
+
+Two standard readability metrics were applied to assess output appropriateness. This validaition checks were conducted seperately and were not coupled to the design of the chatbot. However, addtional metrics could easily be added if needed to the workflow (e.g sentiment analysis, subjectivity)
 
 ### Flesch Reading Ease (FRE)
 

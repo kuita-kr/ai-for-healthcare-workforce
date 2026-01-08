@@ -4,13 +4,13 @@
 
 ## Overview
 
-An multi-lingual AI career guidance chatbot designed to help students and graduates navigate the complex landscape of NHS careers. Developed during the Microsoft, Kainos for the NHS Website team, this tool addresses the critical gap in accessible, personalised career guidance for aspiring healthcare professionals.
+An multilingual AI career guidance chatbot designed to help students and graduates navigate the complex landscape of NHS careers. Developed during the Microsoft, Kainos for the NHS Website team, this tool addresses the critical gap in accessible, personalised career guidance for aspiring healthcare professionals.  
 
 ## The Challenge
 
 **NHS Risks Losing Future Talent Pipeline**
 
-- Millions of students and graduates aspire to NHS and healthcare careers but lack clear, accessible guidance
+- Each year, thousands of students and graduates aspire to have NHS and healthcare careers but lack clear, accessible guidance
 - Current career resources are overwhelming, with over 350 different NHS career pathways to navigate
 - Critical decision points (GCSE selection, university choices, career transitions) lack targeted intervention
 - Potential talent is lost due to information overload and unclear entry routes
