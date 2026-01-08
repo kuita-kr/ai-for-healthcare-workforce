@@ -1,18 +1,14 @@
 # Readability Validation
 
 ## Objective
-
-Validate that AI-generated outputs match the reading comprehension level of target user personas (Sandra, 13; Kim, 26). 
+Validate that AI-generated outputs match the reading comprehension level of target user personas (Sandra, 13; Kim, 26).
 
 **Note:** Kim's output was generated in Korean; validation was performed on the English translation.
 
 ## Methodology
-
-
-Two standard readability metrics were applied to assess output appropriateness. This validaition checks were conducted seperately and were not coupled to the design of the chatbot. However, addtional metrics could easily be added if needed to the workflow (e.g sentiment analysis, subjectivity)
+Two standard readability metrics were applied to assess output appropriateness. These validation checks were conducted separately and were not coupled to the design of the chatbot. However, additional metrics could easily be added if needed to the workflow (e.g., sentiment analysis, subjectivity).
 
 ### Flesch Reading Ease (FRE)
-
 Measures readability based on sentence length (average words per sentence) and word length (average syllables per word).
 
 **Formula:**
@@ -33,11 +29,11 @@ FRE = 206.835 - 1.015(words/sentences) - 84.6(syllables/words)
 | 30-10 | Graduate | Postgraduate | Very difficult to read. Best understood by university graduates |
 | 10-0 | Professional | Postgraduate+ | Extremely difficult to read. Best understood by university graduates |
 
-**Strengths:** 
+**Strengths:**
 - Industry standard (implemented in Grammarly, MS Word)
 - Objective numerical comparison across texts
 
-**Limitations:** 
+**Limitations:**
 - Designed for English; cultural and linguistic variations affect accuracy
 - Ignores content complexity, semantic difficulty, and domain-specific vocabulary
 - Does not consider text cohesion, logical flow, or reader prior knowledge
@@ -46,7 +42,6 @@ FRE = 206.835 - 1.015(words/sentences) - 84.6(syllables/words)
 **Reference:** https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests
 
 ### Gunning Fog Index (GFI)
-
 Estimates years of formal education required to understand text on first reading, based on sentence length and complex word proportion.
 
 **Formula:**
@@ -68,12 +63,12 @@ GFI = 0.4 × [(words/sentences) + 100 × (complex_words/words)]
 | 13-16 | High School | Upper Secondary (KS4-5) | Academic texts, technical writing |
 | 17+ | University | Higher Education | Advanced academic papers, complex technical documents |
 
-**Strengths:** 
+**Strengths:**
 - Maps directly to education levels
 - Accounts for lexical and syntactic complexity
 - Widely used in technical writing and journalism
 
-**Limitations:** 
+**Limitations:**
 - Arbitrary 3-syllable threshold; may not reflect true complexity
 - Assumes uniform education standards across regions
 - Penalises technical terminology necessary in specialist fields
@@ -121,7 +116,7 @@ fog_index = textstat.gunning_fog(test_data)
 - **FRE difference:** 39.05 points (Sandra: 73.98, Kim: 34.93) - demonstrates clear readability gap
 - **GFI difference:** 1.10 points (Sandra: 8.87, Kim: 9.97) - indicates appropriate educational level targeting
 
-Both metrics confirm successful adaptation to the personas 
+Both metrics confirm successful adaptation to the personas.
 
 ## Limitations
 

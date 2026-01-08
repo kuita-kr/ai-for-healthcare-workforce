@@ -1,10 +1,9 @@
 # Prompting and Meta-Prompting
 
 ## Definition
-
 Meta-prompting is instructing the AI on *how* to respond, not just *what* to respond with. It defines behavioural rules and constraints for the AI's reasoning and output. 
 
-Whilst we structured our prompts using the RICEIFE framework, we also used an iterative refinement approach, feeing in these initial prompts into the LLM with instructions to improve the quality and clarity of the system prompt.
+Whilst we structured our prompts using the RICEIFE framework, we also used an iterative refinement approach, feeding these initial prompts into the LLM with instructions to improve the quality and clarity of the system prompt.
 
 This meta-prompting process was a separate development step, not integrated into the live prompt flow.
 
@@ -47,7 +46,7 @@ Our full system prompts were not captured after the hackathon. However, we appli
 
 ![Prompt flow screenshots showing different prompting routes depending on age](../images/prompt_flow.png)
 
-We used Azure Machine Learning prompt flow to design a system with a multi-layered prompting approach comprising the following components:
+We used [Azure Machine Learning prompt flow](https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/overview-what-is-prompt-flow?view=azureml-api-2) to design a system with a multi-layered prompting approach comprising the following components:
 
 1. **Persona and Language Adaptation**
 2. **Query Context (vectorised retrieval and entity recognition)**
@@ -111,13 +110,13 @@ The content safety tool returns a binary decision for each category:
 - `action_by_category` - Binary value (`Accept` or `Reject`) for each category based on configured sensitivity levels
 - `suggested_action` - Overall recommendation; returns `Reject` if any category is rejected
 
-Source: https://microsoft.github.io/promptflow/reference/tools-reference/contentsafety_text_tool.html
+**Source:** https://microsoft.github.io/promptflow/reference/tools-reference/contentsafety_text_tool.html
 
 ---
 
 ## 4. Source-Only Constraints
 
-The AI was instructed to only use provided sources and had to include a citation that declared which document(s) were used in the  response.
+The AI was instructed to only use provided sources and had to include a citation that declared which document(s) were used in the response.
 
 **Boundaries:**
 - When information was unavailable in sources, the system responded with: **"I don't know"** or **"This information is not available in the provided sources"**
